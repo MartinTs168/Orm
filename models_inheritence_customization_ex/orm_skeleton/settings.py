@@ -86,7 +86,7 @@ WSGI_APPLICATION = 'orm_skeleton.wsgi.application'
 
 DB_NAME = config("DB_NAME")
 USER = config("USER")
-PASSWORD = ("PASSWORD")
+PASSWORD = config("PASSWORD")
 
 DATABASES = {
     "default": {
